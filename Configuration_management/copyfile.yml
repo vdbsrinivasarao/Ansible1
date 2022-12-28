@@ -1,0 +1,8 @@
+---
+ hosts: tomcat
+ become: true
+ tasks:
+    name: copy on to tomcat server
+    src:
+    dest:
+    
