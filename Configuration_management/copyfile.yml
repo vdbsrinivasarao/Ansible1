@@ -3,6 +3,6 @@
  become: true
  tasks:
     name: copy on to tomcat server
-    src:
-    dest:
+    src:  /root/Ansible1/Configuration_management
+    dest:  /root/apache-tomcat-8.5.84/webapps
     
